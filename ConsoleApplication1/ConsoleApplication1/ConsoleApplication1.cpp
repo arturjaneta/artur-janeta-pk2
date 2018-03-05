@@ -29,6 +29,7 @@ int main()
 	printf("MAX=: %f\n", max);
 	printf("Pozycja MAX=: %d\n", positionmax);
 	getchar();
+	getchar();
     return 0;
 }
 
