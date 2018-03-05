@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-
+#include <cstdio>
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
 		scanf_s("%f",&array[i]);
 	}
 	int positionmin = 0;
-	int positionmax=0;
+	int positionmax = 0;
 	float min = array[0];
 	float max = array[0];
 	for (int i = 1;i < 13;i++) {
@@ -28,7 +28,7 @@ int main()
 	printf("Pozycja MIN=: %d\n", positionmin);
 	printf("MAX=: %f\n", max);
 	printf("Pozycja MAX=: %d\n", positionmax);
-
+	getchar();
     return 0;
 }
 
